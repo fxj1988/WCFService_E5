@@ -1,0 +1,14 @@
+D:\WCFService_E5\ServiceContract\bin\Debug\ServiceContract.dll
+D:\WCFService_E5\ServiceContract\bin\Debug\ServiceContract.pdb
+D:\WCFService_E5\ServiceContract\bin\Debug\SqlModel.dll
+D:\WCFService_E5\ServiceContract\bin\Debug\EntityFramework.dll
+D:\WCFService_E5\ServiceContract\bin\Debug\SqlModel.pdb
+D:\WCFService_E5\ServiceContract\bin\Debug\SqlModel.dll.config
+D:\WCFService_E5\ServiceContract\bin\Debug\EntityFramework.xml
+D:\WCFService_E5\ServiceContract\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WCFService_E5\ServiceContract\obj\Debug\ServiceContract.csprojAssemblyReference.cache
+D:\WCFService_E5\ServiceContract\obj\Debug\ServiceContract.csproj.CoreCompileInputs.cache
+D:\WCFService_E5\ServiceContract\obj\Debug\ServiceContract.csproj.CopyComplete
+D:\WCFService_E5\ServiceContract\obj\Debug\ServiceContract.dll
+D:\WCFService_E5\ServiceContract\obj\Debug\ServiceContract.pdb
+D:\WCFService_E5\ServiceContract\bin\Debug\App.Config

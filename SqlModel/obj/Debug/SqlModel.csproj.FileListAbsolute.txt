@@ -1,0 +1,15 @@
+D:\WCFService_E5\SqlModel\bin\Debug\SqlModel.dll.config
+D:\WCFService_E5\SqlModel\bin\Debug\SqlModel.dll
+D:\WCFService_E5\SqlModel\bin\Debug\SqlModel.pdb
+D:\WCFService_E5\SqlModel\bin\Debug\EntityFramework.dll
+D:\WCFService_E5\SqlModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\WCFService_E5\SqlModel\bin\Debug\EntityFramework.xml
+D:\WCFService_E5\SqlModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\WCFService_E5\SqlModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WCFService_E5\SqlModel\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\WCFService_E5\SqlModel\obj\Debug\SqlModel.csprojAssemblyReference.cache
+D:\WCFService_E5\SqlModel\obj\Debug\SqlModel.csproj.CoreCompileInputs.cache
+D:\WCFService_E5\SqlModel\obj\Debug\SqlModel.csproj.CopyComplete
+D:\WCFService_E5\SqlModel\obj\Debug\SqlModel.dll
+D:\WCFService_E5\SqlModel\obj\Debug\SqlModel.pdb
+D:\WCFService_E5\SqlModel\bin\Debug\App.Config
