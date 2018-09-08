@@ -17,7 +17,7 @@
     <Property Name="postalCode" Type="nvarchar" MaxLength="255" />
     <Property Name="wCount" Type="nvarchar" MaxLength="255" />
     <Property Name="w1" Type="nvarchar" MaxLength="255" />
-    <Property Name="w1detail" Type="nvarchar" MaxLength="255" />
+    <Property Name="w1detail" Type="nvarchar(max)" />
     <Property Name="w1Remark" Type="nvarchar" MaxLength="255" />
     <Property Name="w2" Type="nvarchar" MaxLength="255" />
     <Property Name="w2detail" Type="nvarchar" MaxLength="255" />

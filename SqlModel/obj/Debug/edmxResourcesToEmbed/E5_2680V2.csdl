@@ -17,7 +17,7 @@
     <Property Name="postalCode" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="wCount" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="w1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="w1detail" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="w1detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="w1Remark" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="w2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="w2detail" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />

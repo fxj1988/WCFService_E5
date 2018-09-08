@@ -6,7 +6,6 @@ using System.Data.Entity;
 using System.Linq;
 using System.Reflection;
 using System.ServiceModel;
-using System.ServiceModel.Description;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -100,7 +99,7 @@ namespace ServiceHost
             Accounts user_new = dbSet.Where(a => a.ID == userInfo.ID).FirstOrDefault();
             DeepCopy(ref user_new, userInfo);
             db.Entry<Accounts>(user_new).State = EntityState.Modified;
-            return db.SaveChanges();
+            return db.SaveChanges();           
             #region 上锁
             //bool lockTaken = false;
             //try
@@ -170,7 +169,6 @@ namespace ServiceHost
         //返回用于测试的用户信息
         public int ParallelTest()
         {
-            string fullPath = @"C:\Users\FXJ_V2680\Desktop\test.txt";
             List<Accounts> listAccounts = dbSet.Where((u) => u.cookies!= ("a") | u.cookies!=("ab|")).ToList();
             List<string> list = new List<string>();
             for (int i = 0; i < listAccounts.Count; i++)
@@ -187,27 +185,7 @@ namespace ServiceHost
                 log = userInfo.ID + "\t" + "已写入"+"\r\n";
                 return log;
             }, (log) => {
-                /**
-                bool lockTaken = false;
-                try
-                {
-                    slock.Enter(ref lockTaken);
-                    using (FileStream fr = new FileStream(fullPath, FileMode.OpenOrCreate, FileAccess.Write, FileShare.ReadWrite, 1024, true))
-                    {
-                        fr.Position = fr.Length;
-                        byte[] buffer = Encoding.Default.GetBytes(log);
-                        //Task.Factory.FromAsync(fr.BeginWrite, fr.EndWrite, buffer, 0, buffer.Length, null, TaskCreationOptions.None).ContinueWith((i) => { return 1; });
-                        fr.BeginWrite(buffer, 0, buffer.Length, null, null);
-                    }
-                }
-                finally
-                {
-                    if (lockTaken)
-                    {
-                        slock.Exit(false);
-                    }
-                }
-    **/
+              
             });
             return 1;           
         }
