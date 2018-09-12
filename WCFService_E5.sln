@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{DB295130-A8B1-4208-9FFF-7F2373C02D01}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "wcf_e5", "wcf_e5\wcf_e5.vdproj", "{8669F9B4-7A2A-468B-B5FF-EB7C8D2341ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{DB295130-A8B1-4208-9FFF-7F2373C02D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB295130-A8B1-4208-9FFF-7F2373C02D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB295130-A8B1-4208-9FFF-7F2373C02D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8669F9B4-7A2A-468B-B5FF-EB7C8D2341ED}.Debug|Any CPU.ActiveCfg = Debug
+		{8669F9B4-7A2A-468B-B5FF-EB7C8D2341ED}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
