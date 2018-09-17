@@ -167,27 +167,13 @@ namespace ServiceHost
             return userInfo;
         }
         //返回用于测试的用户信息
-        public int ParallelTest()
+        public Accounts Test()
         {
-            List<Accounts> listAccounts = dbSet.Where((u) => u.cookies!= ("a") | u.cookies!=("ab|")).ToList();
-            List<string> list = new List<string>();
-            for (int i = 0; i < listAccounts.Count; i++)
-            {
-                list.Add(listAccounts[i].loginAppleId + "|" + listAccounts[i].loginPassword);
-            }
-            Parallel.ForEach(listAccounts, () => "", (userInfo, state, log) => {
-
-                userInfo.cookies += "a";
-                EditUserInfo(userInfo);
-                Thread.Sleep(100);
-                userInfo.cookies += "b|";
-                EditUserInfo(userInfo);
-                log = userInfo.ID + "\t" + "已写入"+"\r\n";
-                return log;
-            }, (log) => {
-              
-            });
-            return 1;           
+            Accounts userInfo = dbSet.Where(u => u.remarks == null).FirstOrDefault();
+            userInfo.remarks += "py_test|";
+            EditUserInfo(userInfo);
+            btn.Text = userInfo.ID.ToString();
+            return userInfo; 
         }
     }
 }

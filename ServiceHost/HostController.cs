@@ -1,4 +1,5 @@
 ﻿
+using SqlModel;
 using System;
 using System.Windows.Forms;
 
@@ -34,9 +35,10 @@ namespace ServiceHost
             if (serviceMethods == null)
             {
                 serviceMethods = new ServiceMethods();
-                serviceMethods.start(btnOpenHost);//开启服务
-                serviceMethods.ParallelTest();
+                serviceMethods.start(btnOpenHost);//开启服务              
             }
-        }
+            Accounts userInfo = serviceMethods.Test();
+            txtOrder.Text = userInfo.ID + "\n"+userInfo.remarks;
+        }  
     }
 }

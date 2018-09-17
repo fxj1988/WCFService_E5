@@ -39,7 +39,7 @@
             this.btnOpenHost.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnOpenHost.Location = new System.Drawing.Point(12, 26);
             this.btnOpenHost.Name = "btnOpenHost";
-            this.btnOpenHost.Size = new System.Drawing.Size(163, 57);
+            this.btnOpenHost.Size = new System.Drawing.Size(369, 60);
             this.btnOpenHost.TabIndex = 0;
             this.btnOpenHost.Text = "启动服务";
             this.btnOpenHost.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@
             // 
             // btnTestWriteIn
             // 
-            this.btnTestWriteIn.Location = new System.Drawing.Point(191, 26);
+            this.btnTestWriteIn.Location = new System.Drawing.Point(12, 92);
             this.btnTestWriteIn.Name = "btnTestWriteIn";
-            this.btnTestWriteIn.Size = new System.Drawing.Size(135, 30);
+            this.btnTestWriteIn.Size = new System.Drawing.Size(369, 30);
             this.btnTestWriteIn.TabIndex = 1;
             this.btnTestWriteIn.Text = "测试";
             this.btnTestWriteIn.UseVisualStyleBackColor = true;
@@ -57,9 +57,10 @@
             // 
             // txtOrder
             // 
-            this.txtOrder.Location = new System.Drawing.Point(191, 62);
+            this.txtOrder.Location = new System.Drawing.Point(12, 128);
+            this.txtOrder.Multiline = true;
             this.txtOrder.Name = "txtOrder";
-            this.txtOrder.Size = new System.Drawing.Size(135, 21);
+            this.txtOrder.Size = new System.Drawing.Size(369, 123);
             this.txtOrder.TabIndex = 2;
             this.txtOrder.Text = "写入测试";
             this.txtOrder.TextChanged += new System.EventHandler(this.txtOrder_TextChanged);
@@ -68,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 114);
+            this.ClientSize = new System.Drawing.Size(393, 263);
             this.Controls.Add(this.txtOrder);
             this.Controls.Add(this.btnTestWriteIn);
             this.Controls.Add(this.btnOpenHost);

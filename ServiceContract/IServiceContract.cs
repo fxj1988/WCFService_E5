@@ -17,8 +17,6 @@ namespace ServiceContract
         [OperationContract]
         Accounts Login();
         [OperationContract]
-        int ParallelTest();
-        [OperationContract]
         bool DeleteUserInfo(Accounts userInfo);
         [OperationContract]
         int EditUserInfo(Accounts userInfo);
@@ -28,5 +26,7 @@ namespace ServiceContract
         string GetOrder();
         [OperationContract]
         Accounts GetNoneAddr();
+        [OperationContract]
+        Accounts Test();
     }
 }
